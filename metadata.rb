@@ -7,7 +7,7 @@ license 'Apache-2.0'
 description 'Manages rbenv and installs Rbenv based Rubies'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version '2.0.5'
-chef_version '>= 12.9' if respond_to?(:chef_version)
+chef_version '>= 12.8' if respond_to?(:chef_version)
 
 supports 'ubuntu'
 supports 'linuxmint'
